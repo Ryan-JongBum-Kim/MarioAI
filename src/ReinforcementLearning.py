@@ -82,6 +82,8 @@ class ReinforcementLearning:
             print("Updating target network")
             self.update_target_network()
 
+        return loss.item()  # Returning the loss of this learning stage
+
     # Function to synchronize the weights of the target network with the policy network
     def update_target_network(self):
         self.target_network.load_state_dict(self.policy_network.state_dict())
