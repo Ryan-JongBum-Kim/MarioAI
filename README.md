@@ -12,16 +12,22 @@ git clone https://github.com/BlakeMuchmore01/SuperMarioBros.github.io.git
 
 **Next, create a virtual environment**
 
-The command below is to create a conda environment. I'm using Python 3.10.12.
+The command below is to create a conda environment. I'm using Python 3.10.13.
 
 ```bash
-conda create --name smbrl python=3.10.12
+conda create --name smbrl python=3.10.13
 ```
 
 To activate the environment.
 
 ```bash
 conda activate smbrl
+```
+
+**Installing Super Mario Bros Environment**
+The command below is to install the super mario bros gym environment
+```bash
+pip install gym-super-mario-bros
 ```
 
 **Installing PyTorch v2.1.1**
