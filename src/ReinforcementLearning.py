@@ -36,7 +36,7 @@ class ReinforcementLearning:
 
         # Rolling random value, if we roll lower than epsilon threshold, sample a random action
         if random.random() < eps_threshold:
-            return np.random.choice(np.array(range(12)), p=[0.05, 0.15, 0.15, 0.15, 0.15, 0.05, 0.05, 0.1, 0.05, 0.1, 0.05, 0.05])  # Random action with set priors
+            return np.random.choice(np.array(range(12)), p=[0.025, 0.15, 0.15, 0.15, 0.15, 0.025, 0.025, 0.1, 0.05, 0.1, 0.025, 0.05])  # Random action with set priors
         
         # Otherwise the policy network (Q) chooses an action with the highest estimated Q-value so far
         state = torch.tensor(np.array(observation), dtype=torch.float32).unsqueeze(0).to(self.policy_network.device)
