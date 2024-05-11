@@ -50,7 +50,8 @@ class ReplayBuffer:
         dones = self.dones[batch_indices_cpu]
 
         # Returning the random sampled experiences
-        return np.array(states), np.array(actions), np.array(rewards), np.array(states_), np.array(dones)
+        #return np.array(states), np.array(actions), np.array(rewards), np.array(states_), np.array(dones)
+        return states, actions, rewards, states_, dones
     
     # Function to get the memory count
     def __len__(self):
