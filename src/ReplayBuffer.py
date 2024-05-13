@@ -39,18 +39,16 @@ class ReplayBuffer:
     def sample(self):
         # Getting a series of memory indices from the memory
         MEM_MAX = min(self.memory_count, self.memory_size)
-        batch_indices = torch.from_numpy(np.random.choice(MEM_MAX, self.batch_size, replace=True)).to(self.device)
-        batch_indices_cpu = batch_indices.cpu().numpy()
+        batch_indices = np.random.choice(MEM_MAX, self.batch_size, replace=True)
         
         # Getting the sampled experiences specified by the batch indices
-        states = self.states[batch_indices_cpu]
-        actions = self.actions[batch_indices_cpu]
-        rewards = self.rewards[batch_indices_cpu]
-        states_ = self.states_[batch_indices_cpu]
-        dones = self.dones[batch_indices_cpu]
+        states = self.states[batch_indices]
+        actions = self.actions[batch_indices]
+        rewards = self.rewards[batch_indices]
+        states_ = self.states_[batch_indices]
+        dones = self.dones[batch_indices]
 
         # Returning the random sampled experiences
-        #return np.array(states), np.array(actions), np.array(rewards), np.array(states_), np.array(dones)
         return states, actions, rewards, states_, dones
     
     # Function to get the memory count
