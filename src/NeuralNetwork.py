@@ -52,3 +52,7 @@ class NeuralNetwork(nn.Module):
     # Function to forward pass through the layers of the Neural Network
     def forward(self, x):
         return self.layers(x)
+    
+    # Function to get the weights of the conv layers of the neural network for evaluation
+    def get_conv_weights(self, layer):
+        return self.conv_layers[layer].weight.data.cpu()
