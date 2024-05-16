@@ -70,6 +70,7 @@ class ReinforcementLearning:
         q_target = rewards + self.gamma * q_values_next_max * dones     # Getting target Q-values
 
         loss = self.policy_network.loss(q_values, q_target)  # Calcualting the loss from target and pred Q-values
+        td_error = q_target - q_values  # Calculating the temporal difference error
 
         # Computing the gradients and updating Q weights
         self.policy_network.optimizer.zero_grad()
@@ -82,7 +83,7 @@ class ReinforcementLearning:
             print("Updating target network")
             self.update_target_network()
 
-        return loss.item()  # Returning the loss of this learning stage
+        return loss.item(), td_error.mean().item()  # Returning the loss of this learning stage
 
     # Function to synchronize the weights of the target network with the policy network
     def update_target_network(self):
