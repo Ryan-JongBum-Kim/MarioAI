@@ -17,6 +17,7 @@ class ReinforcementLearning:
         self.replay_start_size = ReplayStartSize
         self.batch_size = BatchSize
         self.gamma = Gamma
+        self.eps_threshold = 0.0
 
         # Creating the policy and target neural networks and replay buffer
         self.memory = ReplayBuffer(env, MemorySize, MemoryRetain, BatchSize)
@@ -33,6 +34,9 @@ class ReinforcementLearning:
                 math.exp(-1. * self.learn_count / self.epsilon_decay)
         else:
             eps_threshold = 1.0
+
+        # Storing the exploration rate (epsilon) for later use
+        self.eps_threshold = eps_threshold
 
         # Rolling random value, if we roll lower than epsilon threshold, sample a random action
         if random.random() < eps_threshold:
@@ -91,4 +95,4 @@ class ReinforcementLearning:
 
     # Function to return the exploration rate (epsilon) of the agent
     def returning_epsilon(self):
-        return self.exploration_rate
+        return self.eps_threshold
