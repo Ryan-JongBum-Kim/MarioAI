@@ -33,5 +33,5 @@ def apply_wrappers(env):
     env = SkipFrame(env, skip=4)  # Number of frames to apply one action to (i.e. frames to skip)
     env = ResizeObservation(env, shape=84)  # Resizing the environment frame to 84x84
     env = GrayScaleObservation(env)  # Applying grayscale to observation to reduce memory usage
-    env = FrameStack(env, num_stack=4, lz4_compress=True)  # Stacks the frames that are skipped
+    env = FrameStack(env, num_stack=4, lz4_compress=True)  # Stacks the frames to introduce velocity data
     return env  # Returning the wrapped environment
