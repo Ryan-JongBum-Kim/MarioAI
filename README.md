@@ -113,6 +113,9 @@ The source code for the project
 [Required Packages](requirements.txt)
 The required python packages for the project
 
+[Related Documents](documents/)
+Related documents (videos, report, etc)
+
 ## Conclusions and Future Works
 Utilizing CNN and DQN for an AI agent proposed some difficulties. Although the goal of speedrunning the first level wasn't entirely achieved, we believe the algorithms and results show adequate success in training the agent to understand images within the environment, and adapt to them to get as far into the level as possible. 
 
