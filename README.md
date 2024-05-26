@@ -115,7 +115,7 @@ The required python packages for the project
 ## Conclusions and Future Works
 Utilizing CNN and DQN for an AI agent proposed some difficulties. Although the goal of speedrunning the first level wasn't entirely achieved, we believe the algorithms and results show adequate success in training the agent to understand images within the environment, and adapt to them to get as far into the level as possible. 
 
-Future work would be to explore methods to refine our code to fully complete the first level from start to finish. This could include things such as changing hyperparameters, training for longer/more efficiently, or changing some of the implementations of our methods. This was our first time using CNN and DQN and as such, further research will be required to find solutions for the mentioned refinement methods.
+Future work would be to explore methods to refine our code to fully complete the first level from start to finish. This could include things such as changing hyperparameters, training for longer/more efficiently, changing to a simpler action space, or changing some of the implementations of our methods. This was our first time using CNN and DQN and as such, further research will be required to find solutions for the mentioned refinement methods.
 
 ## Team Involved
 Team No. 10
