@@ -8,9 +8,9 @@ The following video is the teaser trailer for our project:
 
 [![Teaser Trailer](http://img.youtube.com/vi/wialu6EQY00/0.jpg)](https://youtu.be/wialu6EQY00 "Video Teaser")
 
-The following video is the final presentation for our project. This video highlights the environment we were working with, the inner workings of our various AI techniques, functions, wrappers, etc, and analysis of our best results. Video:
+The following video is the final demo presentation for our project. This video highlights the environment we were working with, the inner workings of our various AI techniques, functions, wrappers, etc, and analysis of our best results. Video:
 
-
+[![Final Demo Video](http://img.youtube.com/vi/oaKSRux_QGo/0.jpg)](https://youtu.be/oaKSRux_QGo "Final Demo Video")
 
 ## Goals
 The goal of this project was to use the AI techniques to manipulate the Mario agent to do the following:
@@ -74,7 +74,7 @@ The following graphs are the performance metrics describing our best performing 
 |<img src="images/Results_Length.png" width="300" /> | <img src="images/Results_Success.png" width="300" /> |
 |<img src="images/Results_Coins.png" width="300" /> | <img src="images/Results_Score.png" width="300" /> |
 
-The following video shows our best trained agent completing as much of the first Super Mario Bros level as possible. Notice that the Mario agent detects enemies, floating blocks, tall pipes, and gaps, and successfully takes actions to defeat them, pass them, etc.
+The following video shows our best trained agent completing as much of the first Super Mario Bros level as possible. Notice that the Mario agent detects enemies, floating blocks, tall pipes, and gaps, and successfully takes actions to defeat them, pass them, etc. The mario agent makes it roughly 80% through the level.
 
 [![Teaser Trailer](http://img.youtube.com/vi/3X4Dhg5mjKQ/0.jpg)](https://youtu.be/3X4Dhg5mjKQ "Video BestRuns")
 
