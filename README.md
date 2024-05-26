@@ -7,7 +7,8 @@ This project uses artificial intellegence techniques to create a Mario agent to 
 The following video is the teaser trailer for our project:
 [![Teaser Trailer](http://img.youtube.com/vi/wialu6EQY00/0.jpg)](https://youtu.be/wialu6EQY00 "Video Teaser")
 
-The following video is the final presentation for our project:
+The following video is the final presentation for our project. This video highlights the environment we were working with, the inner workings of our various AI techniques, functions, wrappers, etc, and analysis of our best results. Video:
+
 
 
 ## Goals
