@@ -5,7 +5,7 @@
 This project uses artificial intellegence techniques to create a Mario agent to play the original Super Mario Bros video game. The agent utilizes and was trained with a Convolutional Neural Network (CNN) to analyse raw pixel data, and Deep Q-Learning, a reinforcement learning algorithm. These algorithms select the best actions for the Mario agent to take within its state environment.
 
 The following video is the teaser trailer for our project:
-<iframe width="560" height="315" src="https://youtu.be/wialu6EQY00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Teaser Trailer](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://www.youtube.com/watch?v=wialu6EQY00)
 
 The following video is the final presentation for our project:
 
