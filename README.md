@@ -59,8 +59,8 @@ We used the above observation space to create a custom reward space to dictate M
 | Time difference in the game clock between frames | Prevents agent from staying still | - | Clock ticks | Clock doesn't tick |
 | Death Penalty | Discourages agent from death | - | Agent dead | Agent alive |
 | Coins | Encourages agent to get coins | Coin collected | - | No coin collected |
-| Powerups | Encourages agent to get powerups and not lose them | Powerup collected | Powerup lost | - |
-| Score | Encourages agent to get higher score | Score Value | Score Value | Score Value |
+| Powerups | Encourages agent to get powerups and not lose them | Powerup collected | Powerup lost | Same status |
+| Score | Encourages agent to get higher score | Score Increased | - | Score Stationary |
 | Flag | Encourages agent to reach middle & end flag | Flag collected | - | Flag not collected |
 
 ## Results
@@ -107,8 +107,11 @@ pip install torch
 pip install -r requirements.txt
 ```
 ## Code Base
-[Our Source Code](src/) - The source code for the project
-[Required Packages](requirements.txt) - The required python packages for the project
+[Our Source Code](src/)
+The source code for the project
+
+[Required Packages](requirements.txt)
+The required python packages for the project
 
 ## Conclusions and Future Works
 Utilizing CNN and DQN for an AI agent proposed some difficulties. Although the goal of speedrunning the first level wasn't entirely achieved, we believe the algorithms and results show adequate success in training the agent to understand images within the environment, and adapt to them to get as far into the level as possible. 
