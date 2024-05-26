@@ -72,7 +72,6 @@ The following video shows our best trained agent completing as much of the first
 
 ## Installation
 **To clone this repository**
-
 ```bash
 git clone https://github.com/BlakeMuchmore01/SuperMarioBros.github.io.git
 ```
@@ -116,7 +115,7 @@ The required python packages for the project
 ## Conclusions and Future Works
 Utilizing CNN and DQN for an AI agent proposed some difficulties. Although the goal of speedrunning the first level wasn't entirely achieved, we believe the algorithms and results show adequate success in training the agent to understand images within the environment, and adapt to them to get as far into the level as possible. 
 
-Future work would be to explore methods to refine our code to fully complete the first level from start to finish. This could be things such as changing hyperparameters, training for longer or more efficiently, or changing some of the implementations of our methods.
+Future work would be to explore methods to refine our code to fully complete the first level from start to finish. This could include things such as changing hyperparameters, training for longer/more efficiently, or changing some of the implementations of our methods. This was our first time using CNN and DQN and as such, further research will be required to find solutions for the mentioned refinement methods.
 
 ## Team Involved
 Team No. 10
