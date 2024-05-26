@@ -35,7 +35,7 @@ class ReinforcementLearning:
         else:
             eps_threshold = 1.0
 
-        # Storing the exploration rate (epsilon) for later use
+        # Storing the exploration rate (epsilon) for later print
         self.eps_threshold = eps_threshold
 
         # Rolling random value, if we roll lower than epsilon threshold, sample a random action
