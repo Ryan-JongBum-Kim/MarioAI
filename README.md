@@ -36,6 +36,7 @@ We use a Super Mario Bros OpenAI gym environment (https://pypi.org/project/gym-s
 
 ### Observation Space
 The info dictionary returned by step contains the following:
+
 | Key | Unit | Description |
 | --- | ---- | ----------- |
 | coins | int | Number of collected coins |
@@ -51,6 +52,7 @@ The info dictionary returned by step contains the following:
 
 ### Rewards
 We used the above observation space to create a custom reward space to dictate Mario's learning patterns.
+
 | Feature | Description | Value when Positive | Value when Negative | Value when Equal |
 |---------|-------------|---------------------|---------------------|------------------|
 | Difference in agent x values between states | Controls agent's movement | Moving right | Moving left | Not moving |
