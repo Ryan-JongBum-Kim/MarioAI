@@ -66,18 +66,11 @@ We used the above observation space to create a custom reward space to dictate M
 ## Results
 The following graphs are the performance metrics describing our best performing training instance.
 
-<p float="left">
-  <img src="/images/Results_Reward.png" width="300" />
-  <img src="/images/Results_Loss.png" width="300" /> 
-</p>
-<p float="left">
-  <img src="/images/Results_Length.png" width="300" />
-  <img src="/images/Results_Success.png" width="300" /> 
-</p>
-<p float="left">
-  <img src="/images/Results_Coins.png" width="300" />
-  <img src="/images/Results_Score.png" width="300" /> 
-</p>
+| | |
+|:-------------------------:|:-------------------------:|
+|<img src="/images/Results_Reward.png" width="300" /> | <img src="/images/Results_Loss.png" width="300" /> |
+|<img src="/images/Results_Length.png" width="300" /> | <img src="/images/Results_Success.png" width="300" /> |
+|<img src="/images/Results_Coins.png" width="300" /> | <img src="/images/Results_Score.png" width="300" /> |
 
 The following video shows our best trained agent completing as much of the first Super Mario Bros level as possible. Notice that the Mario agent detects enemies, floating blocks, tall pipes, and gaps, and successfully takes actions to defeat them, pass them, etc.
 [![Teaser Trailer](http://img.youtube.com/vi/3X4Dhg5mjKQ/0.jpg)](https://youtu.be/3X4Dhg5mjKQ "Video BestRuns")
