@@ -115,13 +115,13 @@ pip install -r requirements.txt
 ```
 
 ## Code Base
-[Our Source Code](https://github.com/BlakeMuchmore01/SuperMarioBros.github.io/tree/main/src)
+[Our Source Code](https://github.com/Ryan-JongBum-Kim/MarioAI/tree/main/src)
 The source code for the project
 
 [Required Packages](requirements.txt)
 The required python packages for the project
 
-[Related Documents](https://github.com/BlakeMuchmore01/SuperMarioBros.github.io/tree/main/documents)
+[Related Documents](https://github.com/Ryan-JongBum-Kim/MarioAI/tree/main/documents)
 Related documents (videos, report, etc)
 
 ## Conclusions and Future Works
